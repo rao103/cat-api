@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.12" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../../src/db/migrations/0001_create_reference_schema.sql" Link="Schema/reference.sql" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../../src/db/migrations/0002_create_extraction_schema.sql" Link="Schema/extraction.sql" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Api\ProductionIngestor.Api\ProductionIngestor.Api.csproj" />
+    <ProjectReference Include="..\..\..\src\Api\OutageIngestor.Api\OutageIngestor.Api.csproj" />
+    <ProjectReference Include="..\..\..\src\Raw\Ingestors\Production\ProductionIngestor.Core\ProductionIngestor.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Shared\Messaging.Contracts\Messaging.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

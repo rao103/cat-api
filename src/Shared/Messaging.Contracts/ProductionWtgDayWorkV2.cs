@@ -1,0 +1,27 @@
+namespace CAT.Messaging.Contracts;
+
+public sealed record ProductionWtgDayWorkV2(
+    int SchemaVersion,
+    string WorkKind,
+    string ArtifactId,
+    string BatchId,
+    string SourceType,
+    string WindfarmId,
+    string WindfarmName,
+    string DataDate,
+    string ExtractionMode,
+    string PayloadKind,
+    int PayloadSchemaVersion,
+    string RequestId,
+    string AttemptId,
+    long ExtractionToken,
+    string[] RawPaths,
+    string[] WtgNames,
+    int[] ScopeWtgIds,
+    bool IsExtractionReady,
+    bool HasNoSourceRows,
+    bool AllowRemovalReconciliation,
+    string? SourceVersionEvidence,
+    string OriginalMessageBody,
+    string? TraceId,
+    string? OperationId);

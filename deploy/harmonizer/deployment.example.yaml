@@ -1,0 +1,50 @@
+# Merge with the existing environment/App Bundle deployment conventions; no IAM role is created here.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: harmonizer
+spec:
+  replicas: 1  # Keep HPA/KEDA minimum at 1: event continuation also runs when SQS is idle.
+  selector:
+    matchLabels:
+      app: harmonizer
+  template:
+    metadata:
+      labels:
+        app: harmonizer
+    spec:
+      serviceAccountName: harmonizer  # Existing App Bundle/IRSA-managed service account.
+      terminationGracePeriodSeconds: 60
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1654
+        fsGroup: 1654
+      containers:
+        - name: harmonizer
+          image: registry.example.invalid/cat/harmonizer:replace-before-deployment
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ['ALL']
+          envFrom:
+            - configMapRef:
+                name: harmonizer-configuration
+            - secretRef:
+                name: harmonizer-credentials
+          env:
+            - name: DOTNET_EnableDiagnostics
+              value: '0'
+          resources:
+            requests:
+              cpu: '250m'
+              memory: '512Mi'
+            limits:
+              cpu: '2'
+              memory: '2Gi'
+          volumeMounts:
+            - name: temporary
+              mountPath: /tmp
+      volumes:
+        - name: temporary
+          emptyDir: {}

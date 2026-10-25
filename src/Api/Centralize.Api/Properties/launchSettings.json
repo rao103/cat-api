@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Centralize.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "scalar/v1",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LocalRefresh__Enabled": "true"
+      },
+      "applicationUrl": "https://localhost:57696;http://localhost:57697"
+    }
+  }
+}

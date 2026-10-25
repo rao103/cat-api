@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16.15
+    environment:
+      POSTGRES_USER: harmonizer_test
+      POSTGRES_PASSWORD: harmonizer_test
+      POSTGRES_DB: postgres
+    ports:
+      - '127.0.0.1:54329:5432'
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U harmonizer_test -d postgres']
+      interval: 5s
+      timeout: 5s
+      retries: 10

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsTestProject>true</IsTestProject>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../src/Raw/FanOut/RawFanOut.Core/RawFanOut.Core.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3"><PrivateAssets>all</PrivateAssets></PackageReference>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../../src/db/migrations/0001_create_reference_schema.sql"
+          Link="0001_create_reference_schema.sql" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../../src/db/migrations/0002_create_extraction_schema.sql"
+          Link="0002_create_extraction_schema.sql" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../../src/db/migrations/0003_create_raw_fanout_schema.sql"
+          Link="0003_create_raw_fanout_schema.sql" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Fixtures/*.parquet" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

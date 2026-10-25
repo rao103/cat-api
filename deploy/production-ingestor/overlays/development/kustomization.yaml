@@ -1,0 +1,25 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: cat-dev
+
+resources:
+  - ../../base
+
+images:
+  - name: orsted.jfrog.io/dndownins-container-nonprod/dnd-cat/production-ingestor-worker
+    newTag: 0.1.0-dev
+  - name: orsted.jfrog.io/dndownins-container-nonprod/dnd-cat/production-ingestor-api
+    newTag: 0.1.0-dev
+
+patches:
+  - target:
+      kind: ConfigMap
+      name: production-ingestor-config
+    patch: |-
+      - op: add
+        path: /data/Sqs__RawFanOut__QueueUrl
+        value: https://sqs.eu-north-1.amazonaws.com/902707423845/cat-raw-dev
+      - op: add
+        path: /data/JobTrigger__Namespace
+        value: cat-dev

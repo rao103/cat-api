@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/
+
+# Build outputs (all projects, any depth)
+[Bb]in/
+[Oo]bj/
+tests/Raw/ProductionIngestor.EndToEndTests/AssemblyInfo.cs
+localdbconnection/session-manager-plugin.deb
+tools/dart-parquet-preview/local-raw-output/raw/production/windfarm=WOW03/extraction=1/date=2026-01-03/production-quarantine.parquet
+tools/dart-parquet-preview/local-raw-output/raw/production/windfarm=WOW03/extraction=1/date=2026-01-03/production.parquet
+tools/dart-parquet-preview/local-raw-output/raw/production/windfarm=WOW03/extraction=1/date=2026-01-04/production-quarantine.parquet
+tools/dart-parquet-preview/local-raw-output/raw/production/windfarm=WOW03/extraction=1/date=2026-01-04/production.parquet

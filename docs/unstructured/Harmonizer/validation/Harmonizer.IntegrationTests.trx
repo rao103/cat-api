@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3795db3f-6b30-4398-a8dc-6afe5f5ec91d" name="yutse@PC85922 2026-10-07 00:50:33" runUser="DE-PROD\yutse" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-07T00:50:33.6613583+08:00" queuing="2026-10-07T00:50:33.6613609+08:00" start="2026-10-07T00:50:27.4338795+08:00" finish="2026-10-07T00:50:33.7378554+08:00" />
+  <TestSettings name="default" id="fefe9b4c-0723-43dc-8728-078fa37fdd96">
+    <Deployment runDeploymentRoot="yutse_PC85922_2026-10-07_00_50_33" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="46d53a46-18db-4d7d-87c2-a6e999700166" testId="a923df5b-3371-64dd-9e43-c00d360bed44" testName="Harmonizer.IntegrationTests.ProductionPipelineTests.Multipart_refresh_missing_part_blocks_commit_then_recovers_and_replays_without_new_revision" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3655124+08:00" endTime="2026-10-07T00:50:33.3655126+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46d53a46-18db-4d7d-87c2-a6e999700166">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5b860d9-495c-44df-820e-79275e7759a3" testId="9f083faa-976e-962e-ae78-3adb7e16b986" testName="Harmonizer.IntegrationTests.PostgresTests.Failed_batch_pins_exact_first_reference_and_blocks_later_batch" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4889802+08:00" endTime="2026-10-07T00:50:33.4889805+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5b860d9-495c-44df-820e-79275e7759a3">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7e5a7b20-2df3-4c6e-a16e-8cba2bfe6203" testId="ca3c7a0a-a871-c4db-8cc2-f14ba92827a3" testName="Harmonizer.IntegrationTests.OutagePostgresTests.Receipt_barrier_waits_for_each_expected_canonical_batch" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4856331+08:00" endTime="2026-10-07T00:50:33.4856334+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e5a7b20-2df3-4c6e-a16e-8cba2bfe6203">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1492b0d5-14b8-4d2d-8257-57f2b790c6c5" testId="7546eb26-301f-935a-467a-a098871d50e0" testName="Harmonizer.IntegrationTests.OutagePostgresTests.Concurrent_farm_claims_have_one_owner" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3715557+08:00" endTime="2026-10-07T00:50:33.3715560+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1492b0d5-14b8-4d2d-8257-57f2b790c6c5">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f2df4a2-a6dc-4d0f-bfb3-0797aeb8149a" testId="d0da3dfb-9186-24e4-5137-0578e44de1ab" testName="Harmonizer.IntegrationTests.PostgresTests.Concurrent_claims_have_exactly_one_owner" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4967489+08:00" endTime="2026-10-07T00:50:33.4967494+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f2df4a2-a6dc-4d0f-bfb3-0797aeb8149a">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f498f9d0-68cd-4954-bf63-159a2bd9d49b" testId="bf8aed75-509a-567f-1ddf-54f981edf03d" testName="Harmonizer.IntegrationTests.PostgresTests.New_operation_on_unchanged_data_has_its_own_notification_without_new_revision" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4902321+08:00" endTime="2026-10-07T00:50:33.4902323+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f498f9d0-68cd-4954-bf63-159a2bd9d49b">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f680db9e-ce8f-482d-9b97-11fb9bcfff15" testId="fabd9f4d-bf34-34fe-75b3-8cba1f11d738" testName="Harmonizer.IntegrationTests.PostgresTests.Expired_owner_cannot_renew_or_commit_after_reclaim" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4896072+08:00" endTime="2026-10-07T00:50:33.4896074+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f680db9e-ce8f-482d-9b97-11fb9bcfff15">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="607ee223-6fa9-4bf7-abd2-988ff5bde090" testId="ee85e827-e6ba-d656-e0ad-296a4329366a" testName="Harmonizer.IntegrationTests.PostgresTests.Acknowledgement_failure_rolls_back_component_receipt_and_outbox" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3720800+08:00" endTime="2026-10-07T00:50:33.3720802+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="607ee223-6fa9-4bf7-abd2-988ff5bde090">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96d47c80-dd97-4fdd-9210-7065ad57cf74" testId="0186097b-8392-3583-21a2-8ec9b45ca916" testName="Harmonizer.IntegrationTests.PostgresTests.Tracked_commit_persists_ids_and_rejects_retagging" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4908393+08:00" endTime="2026-10-07T00:50:33.4908396+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96d47c80-dd97-4fdd-9210-7065ad57cf74">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54a7c0bd-577a-43f1-8860-5483df0ae446" testId="d97ff45b-d27f-013d-715d-74f5905624b7" testName="Harmonizer.IntegrationTests.PostgresTests.Retained_receipt_handles_redelivery_after_fanout_ledger_cleanup" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3675254+08:00" endTime="2026-10-07T00:50:33.3675258+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54a7c0bd-577a-43f1-8860-5483df0ae446">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87dd86ab-a8db-434f-bcc2-8330b15c8534" testId="ae40ca5c-83fb-0944-7319-6b23a9a63284" testName="Harmonizer.IntegrationTests.OutagePostgresTests.Canonical_receipt_precedes_materialized_receipt_and_daily_commit_is_atomic_with_outbox" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3543949+08:00" endTime="2026-10-07T00:50:33.3547251+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87dd86ab-a8db-434f-bcc2-8330b15c8534">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="605007e1-6181-4064-b05d-9cdee5746628" testId="9fa89e29-ec91-2111-48de-b070e6c83fda" testName="Harmonizer.IntegrationTests.PostgresTests.Registered_batch_cannot_change_its_resolved_turbine_membership" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4848329+08:00" endTime="2026-10-07T00:50:33.4848331+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="605007e1-6181-4064-b05d-9cdee5746628">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3cc851b6-d626-41dc-83ff-188b3b83ba63" testId="956134df-6d48-c8b0-a946-fd7e766a528c" testName="Harmonizer.IntegrationTests.OutagePostgresTests.Pending_ranges_block_an_older_complete_day_until_its_cleanup_commits" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3744372+08:00" endTime="2026-10-07T00:50:33.3744375+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cc851b6-d626-41dc-83ff-188b3b83ba63">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0db02bd2-687f-4044-b566-a007ec219d03" testId="a1769bb8-5ec6-5f9b-98fc-811c6c7fc4b8" testName="Harmonizer.IntegrationTests.ProductionPipelineTests.V2_refresh_resolves_catalog_identity_and_commits_receipts_against_the_original_wire_body" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3737499+08:00" endTime="2026-10-07T00:50:33.3737503+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0db02bd2-687f-4044-b566-a007ec219d03">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="916fb61b-1d2c-4bcc-bd70-044c69b6e3dc" testId="f945dd52-984c-9801-68cf-d499a6ab97ef" testName="Harmonizer.IntegrationTests.OutagePostgresTests.Expired_owner_cannot_publish_canonical_or_daily_progress" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4838029+08:00" endTime="2026-10-07T00:50:33.4838031+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="916fb61b-1d2c-4bcc-bd70-044c69b6e3dc">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ce9299e-510f-4cc7-ad61-cd8c315be94a" testId="420e61d1-7ba9-ecb6-34e2-f88a2ae5d81d" testName="Harmonizer.IntegrationTests.OutagePostgresTests.Event_registration_preserves_the_frozen_body_and_source_failure_is_visible" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.3760641+08:00" endTime="2026-10-07T00:50:33.3760649+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ce9299e-510f-4cc7-ad61-cd8c315be94a">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5164ac11-b04d-40ff-af16-b10a6d6c4985" testId="d958509c-e2c6-40cd-fc4f-e5e5d2319285" testName="Harmonizer.IntegrationTests.PostgresTests.Last_member_commit_acknowledges_batch_and_creates_durable_outbox" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4883376+08:00" endTime="2026-10-07T00:50:33.4883379+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5164ac11-b04d-40ff-af16-b10a6d6c4985">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf295a2b-531d-4213-a223-79041031f8ec" testId="98bf9832-acb5-7802-4d56-6329a5cd9013" testName="Harmonizer.IntegrationTests.PostgresTests.Catalog_join_returns_numeric_ids_and_separate_names" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-10-07T00:50:33.4874549+08:00" endTime="2026-10-07T00:50:33.4874553+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf295a2b-531d-4213-a223-79041031f8ec">
+      <Output>
+        <ErrorInfo>
+          <Message>Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Registered_batch_cannot_change_its_resolved_turbine_membership" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="9fa89e29-ec91-2111-48de-b070e6c83fda">
+      <Execution id="605007e1-6181-4064-b05d-9cdee5746628" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Registered_batch_cannot_change_its_resolved_turbine_membership" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.OutagePostgresTests.Canonical_receipt_precedes_materialized_receipt_and_daily_commit_is_atomic_with_outbox" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="ae40ca5c-83fb-0944-7319-6b23a9a63284">
+      <Execution id="87dd86ab-a8db-434f-bcc2-8330b15c8534" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.OutagePostgresTests" name="Canonical_receipt_precedes_materialized_receipt_and_daily_commit_is_atomic_with_outbox" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.OutagePostgresTests.Receipt_barrier_waits_for_each_expected_canonical_batch" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="ca3c7a0a-a871-c4db-8cc2-f14ba92827a3">
+      <Execution id="7e5a7b20-2df3-4c6e-a16e-8cba2bfe6203" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.OutagePostgresTests" name="Receipt_barrier_waits_for_each_expected_canonical_batch" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.ProductionPipelineTests.Multipart_refresh_missing_part_blocks_commit_then_recovers_and_replays_without_new_revision" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="a923df5b-3371-64dd-9e43-c00d360bed44">
+      <Execution id="46d53a46-18db-4d7d-87c2-a6e999700166" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.ProductionPipelineTests" name="Multipart_refresh_missing_part_blocks_commit_then_recovers_and_replays_without_new_revision" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.ProductionPipelineTests.V2_refresh_resolves_catalog_identity_and_commits_receipts_against_the_original_wire_body" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="a1769bb8-5ec6-5f9b-98fc-811c6c7fc4b8">
+      <Execution id="0db02bd2-687f-4044-b566-a007ec219d03" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.ProductionPipelineTests" name="V2_refresh_resolves_catalog_identity_and_commits_receipts_against_the_original_wire_body" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Acknowledgement_failure_rolls_back_component_receipt_and_outbox" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="ee85e827-e6ba-d656-e0ad-296a4329366a">
+      <Execution id="607ee223-6fa9-4bf7-abd2-988ff5bde090" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Acknowledgement_failure_rolls_back_component_receipt_and_outbox" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Failed_batch_pins_exact_first_reference_and_blocks_later_batch" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="9f083faa-976e-962e-ae78-3adb7e16b986">
+      <Execution id="f5b860d9-495c-44df-820e-79275e7759a3" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Failed_batch_pins_exact_first_reference_and_blocks_later_batch" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Expired_owner_cannot_renew_or_commit_after_reclaim" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="fabd9f4d-bf34-34fe-75b3-8cba1f11d738">
+      <Execution id="f680db9e-ce8f-482d-9b97-11fb9bcfff15" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Expired_owner_cannot_renew_or_commit_after_reclaim" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.New_operation_on_unchanged_data_has_its_own_notification_without_new_revision" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="bf8aed75-509a-567f-1ddf-54f981edf03d">
+      <Execution id="f498f9d0-68cd-4954-bf63-159a2bd9d49b" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="New_operation_on_unchanged_data_has_its_own_notification_without_new_revision" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.OutagePostgresTests.Pending_ranges_block_an_older_complete_day_until_its_cleanup_commits" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="956134df-6d48-c8b0-a946-fd7e766a528c">
+      <Execution id="3cc851b6-d626-41dc-83ff-188b3b83ba63" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.OutagePostgresTests" name="Pending_ranges_block_an_older_complete_day_until_its_cleanup_commits" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.OutagePostgresTests.Concurrent_farm_claims_have_one_owner" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="7546eb26-301f-935a-467a-a098871d50e0">
+      <Execution id="1492b0d5-14b8-4d2d-8257-57f2b790c6c5" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.OutagePostgresTests" name="Concurrent_farm_claims_have_one_owner" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Concurrent_claims_have_exactly_one_owner" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="d0da3dfb-9186-24e4-5137-0578e44de1ab">
+      <Execution id="5f2df4a2-a6dc-4d0f-bfb3-0797aeb8149a" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Concurrent_claims_have_exactly_one_owner" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Retained_receipt_handles_redelivery_after_fanout_ledger_cleanup" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="d97ff45b-d27f-013d-715d-74f5905624b7">
+      <Execution id="54a7c0bd-577a-43f1-8860-5483df0ae446" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Retained_receipt_handles_redelivery_after_fanout_ledger_cleanup" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Catalog_join_returns_numeric_ids_and_separate_names" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="98bf9832-acb5-7802-4d56-6329a5cd9013">
+      <Execution id="cf295a2b-531d-4213-a223-79041031f8ec" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Catalog_join_returns_numeric_ids_and_separate_names" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Tracked_commit_persists_ids_and_rejects_retagging" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="0186097b-8392-3583-21a2-8ec9b45ca916">
+      <Execution id="96d47c80-dd97-4fdd-9210-7065ad57cf74" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Tracked_commit_persists_ids_and_rejects_retagging" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.OutagePostgresTests.Event_registration_preserves_the_frozen_body_and_source_failure_is_visible" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="420e61d1-7ba9-ecb6-34e2-f88a2ae5d81d">
+      <Execution id="8ce9299e-510f-4cc7-ad61-cd8c315be94a" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.OutagePostgresTests" name="Event_registration_preserves_the_frozen_body_and_source_failure_is_visible" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.PostgresTests.Last_member_commit_acknowledges_batch_and_creates_durable_outbox" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="d958509c-e2c6-40cd-fc4f-e5e5d2319285">
+      <Execution id="5164ac11-b04d-40ff-af16-b10a6d6c4985" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.PostgresTests" name="Last_member_commit_acknowledges_batch_and_creates_durable_outbox" />
+    </UnitTest>
+    <UnitTest name="Harmonizer.IntegrationTests.OutagePostgresTests.Expired_owner_cannot_publish_canonical_or_daily_progress" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\harmonized\harmonizer.integrationtests\bin\release\net10.0\harmonizer.integrationtests.dll" id="f945dd52-984c-9801-68cf-d499a6ab97ef">
+      <Execution id="916fb61b-1d2c-4bcc-bd70-044c69b6e3dc" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Harmonized\Harmonizer.IntegrationTests\bin\Release\net10.0\Harmonizer.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Harmonizer.IntegrationTests.OutagePostgresTests" name="Expired_owner_cannot_publish_canonical_or_daily_progress" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a923df5b-3371-64dd-9e43-c00d360bed44" executionId="46d53a46-18db-4d7d-87c2-a6e999700166" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f083faa-976e-962e-ae78-3adb7e16b986" executionId="f5b860d9-495c-44df-820e-79275e7759a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca3c7a0a-a871-c4db-8cc2-f14ba92827a3" executionId="7e5a7b20-2df3-4c6e-a16e-8cba2bfe6203" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7546eb26-301f-935a-467a-a098871d50e0" executionId="1492b0d5-14b8-4d2d-8257-57f2b790c6c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0da3dfb-9186-24e4-5137-0578e44de1ab" executionId="5f2df4a2-a6dc-4d0f-bfb3-0797aeb8149a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf8aed75-509a-567f-1ddf-54f981edf03d" executionId="f498f9d0-68cd-4954-bf63-159a2bd9d49b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fabd9f4d-bf34-34fe-75b3-8cba1f11d738" executionId="f680db9e-ce8f-482d-9b97-11fb9bcfff15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee85e827-e6ba-d656-e0ad-296a4329366a" executionId="607ee223-6fa9-4bf7-abd2-988ff5bde090" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0186097b-8392-3583-21a2-8ec9b45ca916" executionId="96d47c80-dd97-4fdd-9210-7065ad57cf74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d97ff45b-d27f-013d-715d-74f5905624b7" executionId="54a7c0bd-577a-43f1-8860-5483df0ae446" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae40ca5c-83fb-0944-7319-6b23a9a63284" executionId="87dd86ab-a8db-434f-bcc2-8330b15c8534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fa89e29-ec91-2111-48de-b070e6c83fda" executionId="605007e1-6181-4064-b05d-9cdee5746628" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="956134df-6d48-c8b0-a946-fd7e766a528c" executionId="3cc851b6-d626-41dc-83ff-188b3b83ba63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1769bb8-5ec6-5f9b-98fc-811c6c7fc4b8" executionId="0db02bd2-687f-4044-b566-a007ec219d03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f945dd52-984c-9801-68cf-d499a6ab97ef" executionId="916fb61b-1d2c-4bcc-bd70-044c69b6e3dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="420e61d1-7ba9-ecb6-34e2-f88a2ae5d81d" executionId="8ce9299e-510f-4cc7-ad61-cd8c315be94a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d958509c-e2c6-40cd-fc4f-e5e5d2319285" executionId="5164ac11-b04d-40ff-af16-b10a6d6c4985" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98bf9832-acb5-7802-4d56-6329a5cd9013" executionId="cf295a2b-531d-4213-a223-79041031f8ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="0" passed="0" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 10.0.2)&#xD;
+[xUnit.net 00:00:00.38]   Discovering: Harmonizer.IntegrationTests&#xD;
+[xUnit.net 00:00:00.55]   Discovered:  Harmonizer.IntegrationTests&#xD;
+[xUnit.net 00:00:00.56]   Starting:    Harmonizer.IntegrationTests&#xD;
+[xUnit.net 00:00:00.80]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.81]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.81]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.82]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.82]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.82]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.82]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.82]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+Test 'Harmonizer.IntegrationTests.OutagePostgresTests.Canonical_receipt_precedes_materialized_receipt_and_daily_commit_is_atomic_with_outbox' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.ProductionPipelineTests.Multipart_refresh_missing_part_blocks_commit_then_recovers_and_replays_without_new_revision' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Retained_receipt_handles_redelivery_after_fanout_ledger_cleanup' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.OutagePostgresTests.Concurrent_farm_claims_have_one_owner' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Acknowledgement_failure_rolls_back_component_receipt_and_outbox' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.ProductionPipelineTests.V2_refresh_resolves_catalog_identity_and_commits_receipts_against_the_original_wire_body' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.OutagePostgresTests.Pending_ranges_block_an_older_complete_day_until_its_cleanup_commits' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.OutagePostgresTests.Event_registration_preserves_the_frozen_body_and_source_failure_is_visible' was skipped in the test run.&#xD;
+[xUnit.net 00:00:00.93]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.93]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.93]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.93]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.93]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.94]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.94]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.94]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.94]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+Test 'Harmonizer.IntegrationTests.OutagePostgresTests.Expired_owner_cannot_publish_canonical_or_daily_progress' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Registered_batch_cannot_change_its_resolved_turbine_membership' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.OutagePostgresTests.Receipt_barrier_waits_for_each_expected_canonical_batch' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Catalog_join_returns_numeric_ids_and_separate_names' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Last_member_commit_acknowledges_batch_and_creates_durable_outbox' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Failed_batch_pins_exact_first_reference_and_blocks_later_batch' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Expired_owner_cannot_renew_or_commit_after_reclaim' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.New_operation_on_unchanged_data_has_its_own_notification_without_new_revision' was skipped in the test run.&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Tracked_commit_persists_ids_and_rejects_retagging' was skipped in the test run.&#xD;
+[xUnit.net 00:00:00.94]       Set HARMONIZER_TEST_POSTGRES to a disposable local PostgreSQL instance with CREATE DATABASE permission.&#xD;
+[xUnit.net 00:00:00.95]   Finished:    Harmonizer.IntegrationTests&#xD;
+Test 'Harmonizer.IntegrationTests.PostgresTests.Concurrent_claims_have_exactly_one_owner' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3505054+08:00">
+        <Text>[xUnit.net 00:00:00.80]     Harmonizer.IntegrationTests.OutagePostgresTests.Canonical_receipt_precedes_materialized_receipt_and_daily_commit_is_atomic_with_outbox [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3655645+08:00">
+        <Text>[xUnit.net 00:00:00.81]     Harmonizer.IntegrationTests.ProductionPipelineTests.Multipart_refresh_missing_part_blocks_commit_then_recovers_and_replays_without_new_revision [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3675084+08:00">
+        <Text>[xUnit.net 00:00:00.81]     Harmonizer.IntegrationTests.PostgresTests.Retained_receipt_handles_redelivery_after_fanout_ledger_cleanup [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3717064+08:00">
+        <Text>[xUnit.net 00:00:00.82]     Harmonizer.IntegrationTests.OutagePostgresTests.Concurrent_farm_claims_have_one_owner [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3722372+08:00">
+        <Text>[xUnit.net 00:00:00.82]     Harmonizer.IntegrationTests.PostgresTests.Acknowledgement_failure_rolls_back_component_receipt_and_outbox [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3737234+08:00">
+        <Text>[xUnit.net 00:00:00.82]     Harmonizer.IntegrationTests.ProductionPipelineTests.V2_refresh_resolves_catalog_identity_and_commits_receipts_against_the_original_wire_body [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3743878+08:00">
+        <Text>[xUnit.net 00:00:00.82]     Harmonizer.IntegrationTests.OutagePostgresTests.Pending_ranges_block_an_older_complete_day_until_its_cleanup_commits [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.3759158+08:00">
+        <Text>[xUnit.net 00:00:00.82]     Harmonizer.IntegrationTests.OutagePostgresTests.Event_registration_preserves_the_frozen_body_and_source_failure_is_visible [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6808754+08:00">
+        <Text>[xUnit.net 00:00:00.93]     Harmonizer.IntegrationTests.OutagePostgresTests.Expired_owner_cannot_publish_canonical_or_daily_progress [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6813915+08:00">
+        <Text>[xUnit.net 00:00:00.93]     Harmonizer.IntegrationTests.PostgresTests.Registered_batch_cannot_change_its_resolved_turbine_membership [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6817764+08:00">
+        <Text>[xUnit.net 00:00:00.93]     Harmonizer.IntegrationTests.OutagePostgresTests.Receipt_barrier_waits_for_each_expected_canonical_batch [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6821273+08:00">
+        <Text>[xUnit.net 00:00:00.93]     Harmonizer.IntegrationTests.PostgresTests.Catalog_join_returns_numeric_ids_and_separate_names [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6824717+08:00">
+        <Text>[xUnit.net 00:00:00.93]     Harmonizer.IntegrationTests.PostgresTests.Last_member_commit_acknowledges_batch_and_creates_durable_outbox [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6828607+08:00">
+        <Text>[xUnit.net 00:00:00.94]     Harmonizer.IntegrationTests.PostgresTests.Failed_batch_pins_exact_first_reference_and_blocks_later_batch [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6832635+08:00">
+        <Text>[xUnit.net 00:00:00.94]     Harmonizer.IntegrationTests.PostgresTests.Expired_owner_cannot_renew_or_commit_after_reclaim [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6836043+08:00">
+        <Text>[xUnit.net 00:00:00.94]     Harmonizer.IntegrationTests.PostgresTests.New_operation_on_unchanged_data_has_its_own_notification_without_new_revision [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6839375+08:00">
+        <Text>[xUnit.net 00:00:00.94]     Harmonizer.IntegrationTests.PostgresTests.Tracked_commit_persists_ids_and_rejects_retagging [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-10-07T00:50:33.6889549+08:00">
+        <Text>[xUnit.net 00:00:00.94]     Harmonizer.IntegrationTests.PostgresTests.Concurrent_claims_have_exactly_one_owner [SKIP]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

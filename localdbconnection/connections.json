@@ -1,0 +1,29 @@
+{
+  "sso": {
+    "startUrl": "https://orsted-it-prod.awsapps.com/start",
+    "region": "eu-north-1"
+  },
+  "profiles": {
+    "cat-dev": {
+      "ssoAccountId": "902707423845",
+      "ssoRoleName": "WorkloadPowerUserAccess"
+    }
+  },
+  "defaults": {
+    "remotePort": 5432,
+    "sslmode": "require"
+  },
+  "targets": {
+    "cat-dev": {
+      "description": "CAT Dev Database",
+      "profile": "cat-dev",
+      "region": "eu-north-1",
+      "roleArn": "arn:aws:iam::902707423845:role/rds/cat-dev-pg-superuser-role",
+      "bastionName": "osw02759",
+      "rdsHost": "cat-dev-pg.cpggeso4i2wb.eu-north-1.rds.amazonaws.com",
+      "dbName": "cat_dev",
+      "dbUser": "superuser",
+      "localPort": 55432
+    }
+  }
+}

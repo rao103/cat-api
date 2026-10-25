@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6115e49b-46e5-484a-aa1d-97926c11fd3b" name="yutse@PC85922 2026-09-18 23:53:05" runUser="DE-PROD\yutse" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-09-18T23:53:05.3692006+08:00" queuing="2026-09-18T23:53:05.3692014+08:00" start="2026-09-18T23:53:00.7590254+08:00" finish="2026-09-18T23:53:05.3865049+08:00" />
+  <TestSettings name="default" id="7c717a84-5950-43a3-8d9e-04ec05234eb3">
+    <Deployment runDeploymentRoot="yutse_PC85922_2026-09-18_23_53_05" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d03cd103-8cb5-463f-8502-b0493e302aae" testId="59e90789-4859-0409-0c38-a8e4a202d2ff" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: null, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;true&quot;)" computerName="PC85922" duration="00:00:00.0171096" startTime="2026-09-18T23:53:04.8580594+08:00" endTime="2026-09-18T23:53:04.8581685+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d03cd103-8cb5-463f-8502-b0493e302aae" />
+    <UnitTestResult executionId="21db16f5-c6aa-43d4-a439-c50d2edd1e2c" testId="9bfd8950-8205-f07a-b4a7-4b5259c4aac6" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;0&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;true&quot;)" computerName="PC85922" duration="00:00:00.0004689" startTime="2026-09-18T23:53:04.8724477+08:00" endTime="2026-09-18T23:53:04.8724478+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21db16f5-c6aa-43d4-a439-c50d2edd1e2c" />
+    <UnitTestResult executionId="a0b6e6e3-8402-407b-b842-0202682c71b7" testId="1f14e50a-cd42-dd48-7731-f84fda63e4a9" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: null)" computerName="PC85922" duration="00:00:00.0004384" startTime="2026-09-18T23:53:04.8723882+08:00" endTime="2026-09-18T23:53:04.8723883+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0b6e6e3-8402-407b-b842-0202682c71b7" />
+    <UnitTestResult executionId="3f28752d-a090-4b9a-84b0-624284691736" testId="6cc635af-c8c8-7f78-ea10-fc363a1abee6" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: null, sqsConfirmed: &quot;true&quot;)" computerName="PC85922" duration="00:00:00.0003901" startTime="2026-09-18T23:53:04.8722032+08:00" endTime="2026-09-18T23:53:04.8722033+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f28752d-a090-4b9a-84b0-624284691736" />
+    <UnitTestResult executionId="ba6a9302-0e80-46da-ab16-ba8942240157" testId="0bbe5127-a22e-f5de-ba39-7d122ddeda1f" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: &quot;not-a-date&quot;, sqsConfirmed: &quot;true&quot;)" computerName="PC85922" duration="00:00:00.0006101" startTime="2026-09-18T23:53:04.8725145+08:00" endTime="2026-09-18T23:53:04.8725146+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba6a9302-0e80-46da-ab16-ba8942240157" />
+    <UnitTestResult executionId="0b549ad8-34e0-4f23-b93f-14b2ed5b83bf" testId="1772b398-4608-8b99-2011-989cc4a89580" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.RunsBoundedRefreshAndVerifiesSourceBlobSqsAndAudit" computerName="PC85922" duration="00:00:00.0010000" startTime="2026-09-18T23:53:04.8762468+08:00" endTime="2026-09-18T23:53:04.8762475+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b549ad8-34e0-4f23-b93f-14b2ed5b83bf">
+      <Output>
+        <ErrorInfo>
+          <Message>Live end-to-end test skipped: PRODUCTION_E2E_LIVE is not 'true'.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6631daa-ea9f-4077-933a-09201d83db3f" testId="66367061-cd65-5f19-bd79-4c788f50f0ea" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;false&quot;)" computerName="PC85922" duration="00:00:00.0007383" startTime="2026-09-18T23:53:04.8723269+08:00" endTime="2026-09-18T23:53:04.8723271+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6631daa-ea9f-4077-933a-09201d83db3f" />
+    <UnitTestResult executionId="d953af5a-51cc-4a68-8bd1-e991a7c53eae" testId="9298dc6f-c436-f5bc-8623-b9b50c60f1a7" testName="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;-3&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;true&quot;)" computerName="PC85922" duration="00:00:00.0013046" startTime="2026-09-18T23:53:04.8709013+08:00" endTime="2026-09-18T23:53:04.8709016+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d953af5a-51cc-4a68-8bd1-e991a7c53eae" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;-3&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;true&quot;)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="9298dc6f-c436-f5bc-8623-b9b50c60f1a7">
+      <Execution id="d953af5a-51cc-4a68-8bd1-e991a7c53eae" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="OptedInWithMalformedInputsFailsBeforeContactingAnyProvider" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;0&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;true&quot;)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="9bfd8950-8205-f07a-b4a7-4b5259c4aac6">
+      <Execution id="21db16f5-c6aa-43d4-a439-c50d2edd1e2c" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="OptedInWithMalformedInputsFailsBeforeContactingAnyProvider" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: null, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;true&quot;)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="59e90789-4859-0409-0c38-a8e4a202d2ff">
+      <Execution id="d03cd103-8cb5-463f-8502-b0493e302aae" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="OptedInWithMalformedInputsFailsBeforeContactingAnyProvider" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: &quot;false&quot;)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="66367061-cd65-5f19-bd79-4c788f50f0ea">
+      <Execution id="e6631daa-ea9f-4077-933a-09201d83db3f" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="OptedInWithMalformedInputsFailsBeforeContactingAnyProvider" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.RunsBoundedRefreshAndVerifiesSourceBlobSqsAndAudit" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="1772b398-4608-8b99-2011-989cc4a89580">
+      <Execution id="0b549ad8-34e0-4f23-b93f-14b2ed5b83bf" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="RunsBoundedRefreshAndVerifiesSourceBlobSqsAndAudit" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: &quot;2026-09-01&quot;, sqsConfirmed: null)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="1f14e50a-cd42-dd48-7731-f84fda63e4a9">
+      <Execution id="a0b6e6e3-8402-407b-b842-0202682c71b7" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="OptedInWithMalformedInputsFailsBeforeContactingAnyProvider" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: &quot;not-a-date&quot;, sqsConfirmed: &quot;true&quot;)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="0bbe5127-a22e-f5de-ba39-7d122ddeda1f">
+      <Execution id="ba6a9302-0e80-46da-ab16-ba8942240157" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="OptedInWithMalformedInputsFailsBeforeContactingAnyProvider" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.OptedInWithMalformedInputsFailsBeforeContactingAnyProvider(windfarmId: &quot;3&quot;, date: null, sqsConfirmed: &quot;true&quot;)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.endtoendtests\bin\debug\net10.0\productioningestor.endtoendtests.dll" id="6cc635af-c8c8-7f78-ea10-fc363a1abee6">
+      <Execution id="3f28752d-a090-4b9a-84b0-624284691736" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.EndToEndTests\bin\Debug\net10.0\ProductionIngestor.EndToEndTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests" name="OptedInWithMalformedInputsFailsBeforeContactingAnyProvider" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="59e90789-4859-0409-0c38-a8e4a202d2ff" executionId="d03cd103-8cb5-463f-8502-b0493e302aae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bfd8950-8205-f07a-b4a7-4b5259c4aac6" executionId="21db16f5-c6aa-43d4-a439-c50d2edd1e2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f14e50a-cd42-dd48-7731-f84fda63e4a9" executionId="a0b6e6e3-8402-407b-b842-0202682c71b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cc635af-c8c8-7f78-ea10-fc363a1abee6" executionId="3f28752d-a090-4b9a-84b0-624284691736" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bbe5127-a22e-f5de-ba39-7d122ddeda1f" executionId="ba6a9302-0e80-46da-ab16-ba8942240157" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1772b398-4608-8b99-2011-989cc4a89580" executionId="0b549ad8-34e0-4f23-b93f-14b2ed5b83bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66367061-cd65-5f19-bd79-4c788f50f0ea" executionId="e6631daa-ea9f-4077-933a-09201d83db3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9298dc6f-c436-f5bc-8623-b9b50c60f1a7" executionId="d953af5a-51cc-4a68-8bd1-e991a7c53eae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 10.0.2)&#xD;
+[xUnit.net 00:00:00.49]   Discovering: ProductionIngestor.EndToEndTests&#xD;
+[xUnit.net 00:00:00.68]   Discovered:  ProductionIngestor.EndToEndTests&#xD;
+[xUnit.net 00:00:00.69]   Starting:    ProductionIngestor.EndToEndTests&#xD;
+[xUnit.net 00:00:00.88]       Live end-to-end test skipped: PRODUCTION_E2E_LIVE is not 'true'.&#xD;
+[xUnit.net 00:00:00.88]   Finished:    ProductionIngestor.EndToEndTests&#xD;
+Test 'ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.RunsBoundedRefreshAndVerifiesSourceBlobSqsAndAudit' was skipped in the test run.&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="PC85922" outcome="Warning" timestamp="2026-09-18T23:53:04.8749098+08:00">
+        <Text>[xUnit.net 00:00:00.88]     ProductionIngestor.EndToEndTests.ProductionWorkerEndToEndTests.RunsBoundedRefreshAndVerifiesSourceBlobSqsAndAudit [SKIP]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

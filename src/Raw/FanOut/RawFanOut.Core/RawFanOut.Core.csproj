@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../Shared/Messaging.Contracts/Messaging.Contracts.csproj" />
+    <PackageReference Include="AWSSDK.RDS" Version="4.0.103" />
+    <PackageReference Include="AWSSDK.SecurityToken" Version="4.0.100.6" />
+    <PackageReference Include="AWSSDK.SSO" Version="4.0.100" />
+    <PackageReference Include="AWSSDK.SSOOIDC" Version="4.0.100" />
+    <PackageReference Include="AWSSDK.SQS" Version="4.0.100.13" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.29.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.3" />
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+    <PackageReference Include="Parquet.Net" Version="6.1.0" />
+  </ItemGroup>
+</Project>

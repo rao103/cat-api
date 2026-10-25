@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <Deterministic>true</Deterministic>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <ProjectReference Include="../../../src/Harmonized/Harmonizer/Harmonizer.Core/Harmonizer.Core.csproj" />
+    <ProjectReference Include="../../../src/Shared/Messaging.Contracts/Messaging.Contracts.csproj" />
+    <None Include="../../../src/db/migrations/0003_create_raw_fanout_schema.sql" Link="Database/0003_create_raw_fanout_schema.reference.sql" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../../../src/db/migrations/0004_create_harmonizer_schema.sql" Link="Database/0004_create_harmonizer_schema.sql" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

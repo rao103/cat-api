@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Local-only: fill in real values below, then select this file via
+     Test -> Configure Run Settings -> Select Solution Wide runsettings File.
+     Do not commit real windfarm/date/secret values here. -->
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <!-- Assumes a WSL SSM tunnel already running on ControlPlane__Port and the RDS hostname
+           mapped to 127.0.0.1 in the Windows hosts file (see ../../../localdbconnection/WINDOWS-TEST-SETUP.md). -->
+      <ControlPlane__Provider>PostgreSql</ControlPlane__Provider>
+      <ControlPlane__Authentication>AwsIam</ControlPlane__Authentication>
+      <ControlPlane__Host>cat-dev-pg.cpggeso4i2wb.eu-north-1.rds.amazonaws.com</ControlPlane__Host>
+      <ControlPlane__Port>55432</ControlPlane__Port>
+      <ControlPlane__Database>cat_dev</ControlPlane__Database>
+      <ControlPlane__Username>superuser</ControlPlane__Username>
+      <ControlPlane__Region>eu-north-1</ControlPlane__Region>
+      <ControlPlane__AwsProfile>superuser</ControlPlane__AwsProfile>
+      <ControlPlane__SigningHost>cat-dev-pg.cpggeso4i2wb.eu-north-1.rds.amazonaws.com</ControlPlane__SigningHost>
+      <ControlPlane__SigningPort>5432</ControlPlane__SigningPort>
+      <ControlPlane__RootCertificate>C:\Users\yutse\.aws\rds\eu-north-1-bundle.pem</ControlPlane__RootCertificate>
+
+      <PRODUCTION_E2E_LIVE>true</PRODUCTION_E2E_LIVE>
+      <PRODUCTION_E2E_WINDFARM_ID>1</PRODUCTION_E2E_WINDFARM_ID>
+      <PRODUCTION_E2E_DATE>2026-09-16</PRODUCTION_E2E_DATE>
+      <PRODUCTION_E2E_SQS_OBSERVATION_CONFIRMED>true</PRODUCTION_E2E_SQS_OBSERVATION_CONFIRMED>
+      <PRODUCTION_E2E_TIMEOUT_MINUTES>10</PRODUCTION_E2E_TIMEOUT_MINUTES>
+    </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>

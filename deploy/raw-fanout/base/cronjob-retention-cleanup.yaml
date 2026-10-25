@@ -1,0 +1,52 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: raw-fanout-retention-cleanup
+spec:
+  schedule: "30 2 * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 5
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      activeDeadlineSeconds: 3600
+      parallelism: 1
+      completions: 1
+      completionMode: NonIndexed
+      template:
+        metadata:
+          labels:
+            app: raw-fanout
+            azure.workload.identity/use: "true"
+        spec:
+          restartPolicy: Never
+          serviceAccountName: raw-fanout
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 1654
+            runAsGroup: 1654
+            fsGroup: 1654
+            seccompProfile: {type: RuntimeDefault}
+          containers:
+            - name: retention-cleanup
+              image: approved-jfrog.example/raw-fanout:REPLACE_WITH_IMMUTABLE_VERSION
+              args: ["--cleanup"]
+              envFrom:
+                - configMapRef: {name: raw-fanout-config}
+                - secretRef: {name: raw-fanout-secrets}
+              resources:
+                requests: {cpu: "100m", memory: "256Mi", ephemeral-storage: "256Mi"}
+                limits: {cpu: "500m", memory: "512Mi", ephemeral-storage: "512Mi"}
+              securityContext:
+                allowPrivilegeEscalation: false
+                readOnlyRootFilesystem: true
+                capabilities: {drop: ["ALL"]}
+              volumeMounts:
+                - {name: scratch, mountPath: /tmp}
+                - {name: rds-ca, mountPath: /etc/rds-ca, readOnly: true}
+          volumes:
+            - name: scratch
+              emptyDir: {sizeLimit: "256Mi"}
+            - name: rds-ca
+              configMap: {name: rds-ca-bundle}

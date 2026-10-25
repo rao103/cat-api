@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: production-ingestor-config
+  labels:
+    app.kubernetes.io/name: production-ingestor
+    app.kubernetes.io/instance: production-ingestor
+# Sqs__RawFanOut__QueueUrl and JobTrigger__Namespace are environment-specific and
+# supplied by each overlay (see overlays/dev/kustomization.yaml), not defaulted here.
+data:
+  Sqs__Region: "eu-north-1"
+  JobTrigger__CronJobName: "production-ingestor"
+  JobTrigger__WorkerContainerName: "production-ingestor-worker"
+  Ingestion__MinimumIngestionInterval: "01:00:00"
+  Ingestion__FailureRetryBackoff: "00:05:00"
+  Ingestion__MaxClaimsPerInvocation: "100"
+  Ingestion__MaxInvocationDuration: "00:50:00"
+  ASPNETCORE_URLS: "http://+:8080"
+  # Only the worker's ControlPlaneOptions reads this; the mounted file comes from the
+  # generated production-ingestor-rds-ca ConfigMap (see cronjob-worker.yaml volumes).
+  ControlPlane__RootCertificate: "/app/certs/rds/global-bundle.pem"

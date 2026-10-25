@@ -1,0 +1,77 @@
+# AWS credentials come from the cat-raw-dev-sender ServiceAccount's IAM role annotation
+# (eks.amazonaws.com/role-arn) via the SDK default credential chain. Do not add
+# AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY env vars or secretKeyRef entries here.
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: production-ingestor
+  labels:
+    app.kubernetes.io/name: production-ingestor
+    app.kubernetes.io/instance: production-ingestor
+    app.kubernetes.io/component: worker
+spec:
+  schedule: "0 2 * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 5
+  jobTemplate:
+    spec:
+      backoffLimit: 3
+      activeDeadlineSeconds: 3600
+      parallelism: 1
+      completions: 1
+      completionMode: NonIndexed
+      template:
+        metadata:
+          labels:
+            app.kubernetes.io/name: production-ingestor
+            app.kubernetes.io/instance: production-ingestor
+            app.kubernetes.io/component: worker
+        spec:
+          restartPolicy: Never
+          serviceAccountName: cat-raw-dev-sender
+          nodeSelector:
+            kubernetes.io/os: linux
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 10000
+            fsGroup: 10000
+            seccompProfile:
+              type: RuntimeDefault
+          imagePullSecrets:
+            - name: orsted-artifactory-pull-secret
+          containers:
+            - name: production-ingestor-worker
+              image: orsted.jfrog.io/dndownins-container-nonprod/dnd-cat/production-ingestor-worker:0.1.0
+              env:
+                - name: Ingestion__JobName
+                  valueFrom:
+                    fieldRef:
+                      fieldPath: metadata.labels['batch.kubernetes.io/job-name']
+              envFrom:
+                - configMapRef:
+                    name: production-ingestor-config
+              securityContext:
+                allowPrivilegeEscalation: false
+                readOnlyRootFilesystem: true
+                capabilities:
+                  drop: ["ALL"]
+              resources:
+                requests:
+                  cpu: 200m
+                  memory: 512Mi
+                limits:
+                  cpu: 1000m
+                  memory: 2Gi
+              volumeMounts:
+                - name: tmp
+                  mountPath: /tmp
+                - name: rds-ca
+                  mountPath: /app/certs/rds
+                  readOnly: true
+          volumes:
+            - name: tmp
+              emptyDir: {}
+            - name: rds-ca
+              configMap:
+                name: production-ingestor-rds-ca

@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: raw-fanout
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {app: raw-fanout}
+  template:
+    metadata:
+      labels:
+        app: raw-fanout
+        azure.workload.identity/use: "true"
+    spec:
+      # Reuse/configure your approved AWS + Azure federated workload service account.
+      serviceAccountName: raw-fanout
+      terminationGracePeriodSeconds: 45
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1654
+        runAsGroup: 1654
+        fsGroup: 1654
+        seccompProfile: {type: RuntimeDefault}
+      containers:
+        - name: worker
+          image: approved-jfrog.example/raw-fanout:REPLACE_WITH_IMMUTABLE_VERSION
+          envFrom:
+            - configMapRef: {name: raw-fanout-config}
+            - secretRef: {name: raw-fanout-secrets}
+          resources:
+            requests: {cpu: "250m", memory: "512Mi", ephemeral-storage: "1Gi"}
+            limits: {cpu: "1", memory: "2Gi", ephemeral-storage: "2Gi"}
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities: {drop: ["ALL"]}
+          volumeMounts:
+            - {name: scratch, mountPath: /tmp}
+            - {name: rds-ca, mountPath: /etc/rds-ca, readOnly: true}
+      volumes:
+        - name: scratch
+          emptyDir: {sizeLimit: "2Gi"}
+        - name: rds-ca
+          configMap: {name: rds-ca-bundle}

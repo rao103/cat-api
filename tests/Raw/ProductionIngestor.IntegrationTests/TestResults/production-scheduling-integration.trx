@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="44d531a0-14c3-4418-b9f7-3a75bad60e71" name="yutse@PC85922 2026-09-22 21:09:09" runUser="DE-PROD\yutse" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-09-22T21:09:09.9324353+08:00" queuing="2026-09-22T21:09:09.9324361+08:00" start="2026-09-22T21:09:04.1177600+08:00" finish="2026-09-22T21:09:17.5520629+08:00" />
+  <TestSettings name="default" id="69a91a29-448b-45dd-bb11-8979dc86791e">
+    <Deployment runDeploymentRoot="yutse_PC85922_2026-09-22_21_09_09" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="61e1cdc1-4205-48b5-b13f-0cdc21321ac9" testId="3c2c8b72-6817-d7db-46ef-d162c5dac433" testName="ProductionIngestor.IntegrationTests.ParquetArtifactTests.RowLimitCreatesDeterministicParquetShards" computerName="PC85922" duration="00:00:00.0151921" startTime="2026-09-22T21:09:09.1020197+08:00" endTime="2026-09-22T21:09:09.1020203+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61e1cdc1-4205-48b5-b13f-0cdc21321ac9" />
+    <UnitTestResult executionId="af1af76c-9037-4c04-b101-e4f81ff38037" testId="be73d225-4b15-2013-7c92-6eddbeb700f5" testName="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.ConcurrentWorkersClaimDifferentFarmsAndBatchCreationIsIdempotent" computerName="PC85922" duration="00:00:03.5275713" startTime="2026-09-22T21:09:11.4264421+08:00" endTime="2026-09-22T21:09:11.4264427+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af1af76c-9037-4c04-b101-e4f81ff38037" />
+    <UnitTestResult executionId="4874c334-a99f-4019-8728-09331f3f6d31" testId="e38fe4da-6a68-b585-fc90-367d4d251c4f" testName="ProductionIngestor.IntegrationTests.ParquetArtifactTests.ArtifactRoundTripsDecimalValuesAcrossRowGroups" computerName="PC85922" duration="00:00:00.9215600" startTime="2026-09-22T21:09:09.0798794+08:00" endTime="2026-09-22T21:09:09.0798799+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4874c334-a99f-4019-8728-09331f3f6d31" />
+    <UnitTestResult executionId="8050c5c2-d26e-4ca9-acc6-25734c095b53" testId="93014840-e7f1-8d3c-ec77-b55ba539e41d" testName="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: True, authenticationEnabled: False)" computerName="PC85922" duration="00:00:00.3925050" startTime="2026-09-22T21:09:13.3006679+08:00" endTime="2026-09-22T21:09:13.3006684+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8050c5c2-d26e-4ca9-acc6-25734c095b53" />
+    <UnitTestResult executionId="11374525-6d8c-4f9e-959b-8ae0f605d8ed" testId="a1f00559-ba1c-c143-aba4-c7f9776b9fe7" testName="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.ExistingCheckpointIsPreservedAndCrashRetriesAreBounded" computerName="PC85922" duration="00:00:01.8713533" startTime="2026-09-22T21:09:15.8006179+08:00" endTime="2026-09-22T21:09:15.8006186+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11374525-6d8c-4f9e-959b-8ae0f605d8ed" />
+    <UnitTestResult executionId="2b7733bf-7075-4d2c-ab9e-31355c5bc95d" testId="e734b544-fb7d-ce9d-bdc1-59250a83bcb6" testName="ProductionIngestor.IntegrationTests.RefreshJobTests.RefreshClonesTemplateAndOverridesScheduledParallelism" computerName="PC85922" duration="00:00:00.8723472" startTime="2026-09-22T21:09:08.7592235+08:00" endTime="2026-09-22T21:09:08.7592240+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b7733bf-7075-4d2c-ab9e-31355c5bc95d" />
+    <UnitTestResult executionId="2190893e-c2e6-4311-90f7-b332a1e1ac27" testId="9a3e70e6-bafa-0bfb-7b07-f79906a65482" testName="ProductionIngestor.IntegrationTests.ParquetArtifactTests.EmptyDayIsAReadableParquetArtifact" computerName="PC85922" duration="00:00:00.0065273" startTime="2026-09-22T21:09:09.0866281+08:00" endTime="2026-09-22T21:09:09.0866290+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2190893e-c2e6-4311-90f7-b332a1e1ac27" />
+    <UnitTestResult executionId="0e114e69-30a0-45dd-a731-31c70b25aa14" testId="c90b5750-977b-a2b2-c735-f9bb1003c2c7" testName="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.ExpiredOwnerCannotCommitRenewReleaseOrCompleteReplacementWork" computerName="PC85922" duration="00:00:01.4202151" startTime="2026-09-22T21:09:13.9287233+08:00" endTime="2026-09-22T21:09:13.9287239+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e114e69-30a0-45dd-a731-31c70b25aa14" />
+    <UnitTestResult executionId="4f7348ea-c08f-40d7-8908-78bbd9bd2a1f" testId="dc5c68cb-d1fe-7eee-d17d-8ba524c4aca3" testName="ProductionIngestor.IntegrationTests.ParquetArtifactTests.QuarantineIsParquetAndCorruptionFailsVerification" computerName="PC85922" duration="00:00:00.0172939" startTime="2026-09-22T21:09:09.1195427+08:00" endTime="2026-09-22T21:09:09.1195441+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f7348ea-c08f-40d7-8908-78bbd9bd2a1f" />
+    <UnitTestResult executionId="29343801-4c86-4f3a-bf1b-3b35c89535e0" testId="bd2788b6-b859-38a5-b213-789c59d2cbaf" testName="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: True, authenticationEnabled: True)" computerName="PC85922" duration="00:00:00.4004272" startTime="2026-09-22T21:09:13.7015195+08:00" endTime="2026-09-22T21:09:13.7015198+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29343801-4c86-4f3a-bf1b-3b35c89535e0" />
+    <UnitTestResult executionId="56f004b9-d6a6-4a37-a219-2d4dc3dba17b" testId="14856afd-9714-12bc-4338-49f9b7e2fd79" testName="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.DiscoveryIsReadOnlyAndPreservesSharedIdentity" computerName="PC85922" duration="00:00:01.0743761" startTime="2026-09-22T21:09:12.5080793+08:00" endTime="2026-09-22T21:09:12.5080804+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56f004b9-d6a6-4a37-a219-2d4dc3dba17b" />
+    <UnitTestResult executionId="623c59a8-d300-44e1-84c8-7d4e23b61b02" testId="48f5ac10-6461-4f72-306f-5bfcbda8063e" testName="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.IndependentFailureDoesNotRollbackSuccessfulFarmOrResetCompletedWork" computerName="PC85922" duration="00:00:01.3330053" startTime="2026-09-22T21:09:17.1339040+08:00" endTime="2026-09-22T21:09:17.1339048+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="623c59a8-d300-44e1-84c8-7d4e23b61b02" />
+    <UnitTestResult executionId="d4ed27f3-d878-4aa0-adb3-b8f90e3e49c8" testId="747c6cd3-a67d-eb29-e4f0-d50e1fc4a27f" testName="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: False, authenticationEnabled: False)" computerName="PC85922" duration="00:00:00.5239310" startTime="2026-09-22T21:09:12.9077907+08:00" endTime="2026-09-22T21:09:12.9077912+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4ed27f3-d878-4aa0-adb3-b8f90e3e49c8" />
+    <UnitTestResult executionId="4ee3d049-267e-40ec-bc05-b4d7ee65f758" testId="972890f6-47d3-6caf-cadd-d8675eff67a6" testName="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: False, authenticationEnabled: True)" computerName="PC85922" duration="00:00:04.4966347" startTime="2026-09-22T21:09:12.3836695+08:00" endTime="2026-09-22T21:09:12.3836701+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ee3d049-267e-40ec-bc05-b4d7ee65f758" />
+    <UnitTestResult executionId="cd8a1752-60ec-4a26-a91e-52da6a61279f" testId="f0793f39-8971-970d-b0b5-1ad5f139e2b0" testName="ProductionIngestor.IntegrationTests.ParquetArtifactTests.ImpossibleByteLimitFailsWithoutUploadingAnOversizedArtifact" computerName="PC85922" duration="00:00:00.2264539" startTime="2026-09-22T21:09:08.1591780+08:00" endTime="2026-09-22T21:09:08.1593172+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd8a1752-60ec-4a26-a91e-52da6a61279f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ParquetArtifactTests.EmptyDayIsAReadableParquetArtifact" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="9a3e70e6-bafa-0bfb-7b07-f79906a65482">
+      <Execution id="2190893e-c2e6-4311-90f7-b332a1e1ac27" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ParquetArtifactTests" name="EmptyDayIsAReadableParquetArtifact" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ParquetArtifactTests.RowLimitCreatesDeterministicParquetShards" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="3c2c8b72-6817-d7db-46ef-d162c5dac433">
+      <Execution id="61e1cdc1-4205-48b5-b13f-0cdc21321ac9" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ParquetArtifactTests" name="RowLimitCreatesDeterministicParquetShards" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ParquetArtifactTests.ArtifactRoundTripsDecimalValuesAcrossRowGroups" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="e38fe4da-6a68-b585-fc90-367d4d251c4f">
+      <Execution id="4874c334-a99f-4019-8728-09331f3f6d31" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ParquetArtifactTests" name="ArtifactRoundTripsDecimalValuesAcrossRowGroups" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.DiscoveryIsReadOnlyAndPreservesSharedIdentity" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="14856afd-9714-12bc-4338-49f9b7e2fd79">
+      <Execution id="56f004b9-d6a6-4a37-a219-2d4dc3dba17b" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests" name="DiscoveryIsReadOnlyAndPreservesSharedIdentity" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ParquetArtifactTests.ImpossibleByteLimitFailsWithoutUploadingAnOversizedArtifact" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="f0793f39-8971-970d-b0b5-1ad5f139e2b0">
+      <Execution id="cd8a1752-60ec-4a26-a91e-52da6a61279f" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ParquetArtifactTests" name="ImpossibleByteLimitFailsWithoutUploadingAnOversizedArtifact" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: False, authenticationEnabled: True)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="972890f6-47d3-6caf-cadd-d8675eff67a6">
+      <Execution id="4ee3d049-267e-40ec-bc05-b4d7ee65f758" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.OpenApiTests" name="Document_preserves_versioning_and_authentication" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.ExistingCheckpointIsPreservedAndCrashRetriesAreBounded" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="a1f00559-ba1c-c143-aba4-c7f9776b9fe7">
+      <Execution id="11374525-6d8c-4f9e-959b-8ae0f605d8ed" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests" name="ExistingCheckpointIsPreservedAndCrashRetriesAreBounded" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: False, authenticationEnabled: False)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="747c6cd3-a67d-eb29-e4f0-d50e1fc4a27f">
+      <Execution id="d4ed27f3-d878-4aa0-adb3-b8f90e3e49c8" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.OpenApiTests" name="Document_preserves_versioning_and_authentication" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: True, authenticationEnabled: False)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="93014840-e7f1-8d3c-ec77-b55ba539e41d">
+      <Execution id="8050c5c2-d26e-4ca9-acc6-25734c095b53" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.OpenApiTests" name="Document_preserves_versioning_and_authentication" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.RefreshJobTests.RefreshClonesTemplateAndOverridesScheduledParallelism" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="e734b544-fb7d-ce9d-bdc1-59250a83bcb6">
+      <Execution id="2b7733bf-7075-4d2c-ab9e-31355c5bc95d" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.RefreshJobTests" name="RefreshClonesTemplateAndOverridesScheduledParallelism" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.OpenApiTests.Document_preserves_versioning_and_authentication(production: True, authenticationEnabled: True)" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="bd2788b6-b859-38a5-b213-789c59d2cbaf">
+      <Execution id="29343801-4c86-4f3a-bf1b-3b35c89535e0" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.OpenApiTests" name="Document_preserves_versioning_and_authentication" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.ExpiredOwnerCannotCommitRenewReleaseOrCompleteReplacementWork" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="c90b5750-977b-a2b2-c735-f9bb1003c2c7">
+      <Execution id="0e114e69-30a0-45dd-a731-31c70b25aa14" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests" name="ExpiredOwnerCannotCommitRenewReleaseOrCompleteReplacementWork" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ParquetArtifactTests.QuarantineIsParquetAndCorruptionFailsVerification" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="dc5c68cb-d1fe-7eee-d17d-8ba524c4aca3">
+      <Execution id="4f7348ea-c08f-40d7-8908-78bbd9bd2a1f" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ParquetArtifactTests" name="QuarantineIsParquetAndCorruptionFailsVerification" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.IndependentFailureDoesNotRollbackSuccessfulFarmOrResetCompletedWork" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="48f5ac10-6461-4f72-306f-5bfcbda8063e">
+      <Execution id="623c59a8-d300-44e1-84c8-7d4e23b61b02" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests" name="IndependentFailureDoesNotRollbackSuccessfulFarmOrResetCompletedWork" />
+    </UnitTest>
+    <UnitTest name="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests.ConcurrentWorkersClaimDifferentFarmsAndBatchCreationIsIdempotent" storage="c:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\raw\productioningestor.integrationtests\bin\debug\net10.0\productioningestor.integrationtests.dll" id="be73d225-4b15-2013-7c92-6eddbeb700f5">
+      <Execution id="af1af76c-9037-4c04-b101-e4f81ff38037" />
+      <TestMethod codeBase="C:\ors-dungeons-dragons-aa\cat-dl-backend-service\tests\Raw\ProductionIngestor.IntegrationTests\bin\Debug\net10.0\ProductionIngestor.IntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ProductionIngestor.IntegrationTests.ScheduledWorkPostgresTests" name="ConcurrentWorkersClaimDifferentFarmsAndBatchCreationIsIdempotent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3c2c8b72-6817-d7db-46ef-d162c5dac433" executionId="61e1cdc1-4205-48b5-b13f-0cdc21321ac9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be73d225-4b15-2013-7c92-6eddbeb700f5" executionId="af1af76c-9037-4c04-b101-e4f81ff38037" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e38fe4da-6a68-b585-fc90-367d4d251c4f" executionId="4874c334-a99f-4019-8728-09331f3f6d31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93014840-e7f1-8d3c-ec77-b55ba539e41d" executionId="8050c5c2-d26e-4ca9-acc6-25734c095b53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1f00559-ba1c-c143-aba4-c7f9776b9fe7" executionId="11374525-6d8c-4f9e-959b-8ae0f605d8ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e734b544-fb7d-ce9d-bdc1-59250a83bcb6" executionId="2b7733bf-7075-4d2c-ab9e-31355c5bc95d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a3e70e6-bafa-0bfb-7b07-f79906a65482" executionId="2190893e-c2e6-4311-90f7-b332a1e1ac27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c90b5750-977b-a2b2-c735-f9bb1003c2c7" executionId="0e114e69-30a0-45dd-a731-31c70b25aa14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc5c68cb-d1fe-7eee-d17d-8ba524c4aca3" executionId="4f7348ea-c08f-40d7-8908-78bbd9bd2a1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd2788b6-b859-38a5-b213-789c59d2cbaf" executionId="29343801-4c86-4f3a-bf1b-3b35c89535e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14856afd-9714-12bc-4338-49f9b7e2fd79" executionId="56f004b9-d6a6-4a37-a219-2d4dc3dba17b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48f5ac10-6461-4f72-306f-5bfcbda8063e" executionId="623c59a8-d300-44e1-84c8-7d4e23b61b02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="747c6cd3-a67d-eb29-e4f0-d50e1fc4a27f" executionId="d4ed27f3-d878-4aa0-adb3-b8f90e3e49c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="972890f6-47d3-6caf-cadd-d8675eff67a6" executionId="4ee3d049-267e-40ec-bc05-b4d7ee65f758" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0793f39-8971-970d-b0b5-1ad5f139e2b0" executionId="cd8a1752-60ec-4a26-a91e-52da6a61279f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 10.0.2)&#xD;
+[xUnit.net 00:00:00.48]   Discovering: ProductionIngestor.IntegrationTests&#xD;
+[xUnit.net 00:00:00.81]   Discovered:  ProductionIngestor.IntegrationTests&#xD;
+[xUnit.net 00:00:00.82]   Starting:    ProductionIngestor.IntegrationTests&#xD;
+[21:09:10 INF] User profile is available. Using 'C:\Users\yutse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.&#xD;
+[21:09:10 INF] Application started. Press Ctrl+C to shut down.&#xD;
+[21:09:10 INF] Hosting environment: Testing&#xD;
+[21:09:10 INF] Content root path: C:\ors-dungeons-dragons-aa\cat-dl-backend-service\src\Api\OutageIngestor.Api&#xD;
+[21:09:10 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v1.json - null null&#xD;
+[21:09:11 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v1.json - 200 null application/json;charset=utf-8 1460.6666ms&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/v1/health - null null&#xD;
+[21:09:12 INF] Executing endpoint 'OutageIngestor.Api.Controllers.v1.HealthController.Get (OutageIngestor.Api)'&#xD;
+[21:09:12 INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller OutageIngestor.Api.Controllers.v1.HealthController (OutageIngestor.Api).&#xD;
+[21:09:12 INF] Executing OkObjectResult, writing value of type '&lt;&gt;f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.&#xD;
+[21:09:12 INF] Executed action OutageIngestor.Api.Controllers.v1.HealthController.Get (OutageIngestor.Api) in 41.7175ms&#xD;
+[21:09:12 INF] Executed endpoint 'OutageIngestor.Api.Controllers.v1.HealthController.Get (OutageIngestor.Api)'&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/v1/health - 200 null application/json; charset=utf-8 135.1086ms&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/v1/status/test/Production - null null&#xD;
+[21:09:12 INF] Authorization failed. These requirements were not met:&#xD;
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.&#xD;
+[21:09:12 INF] AuthenticationScheme: Bearer was challenged.&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/v1/status/test/Production - 401 null null 52.264ms&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v999.json - null null&#xD;
+[21:09:12 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v999.json - 404 null text/plain;charset=utf-8 5.8869ms&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/swagger/index.html - null null&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/swagger/index.html - 404 null null 1.1944ms&#xD;
+[21:09:12 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost/swagger/index.html, Response status code: 404&#xD;
+[21:09:12 INF] Application is shutting down...&#xD;
+[21:09:12 INF] User profile is available. Using 'C:\Users\yutse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.&#xD;
+[21:09:12 INF] Application started. Press Ctrl+C to shut down.&#xD;
+[21:09:12 INF] Hosting environment: Testing&#xD;
+[21:09:12 INF] Content root path: C:\ors-dungeons-dragons-aa\cat-dl-backend-service\src\Api\OutageIngestor.Api&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v1.json - null null&#xD;
+[21:09:12 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v1.json - 200 null application/json;charset=utf-8 109.5748ms&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/v1/health - null null&#xD;
+[21:09:12 INF] Executing endpoint 'OutageIngestor.Api.Controllers.v1.HealthController.Get (OutageIngestor.Api)'&#xD;
+[21:09:12 INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller OutageIngestor.Api.Controllers.v1.HealthController (OutageIngestor.Api).&#xD;
+[21:09:12 INF] Executing OkObjectResult, writing value of type '&lt;&gt;f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.&#xD;
+[21:09:12 INF] Executed action OutageIngestor.Api.Controllers.v1.HealthController.Get (OutageIngestor.Api) in 7.0413ms&#xD;
+[21:09:12 INF] Executed endpoint 'OutageIngestor.Api.Controllers.v1.HealthController.Get (OutageIngestor.Api)'&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/v1/health - 200 null application/json; charset=utf-8 15.5572ms&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v999.json - null null&#xD;
+[21:09:12 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v999.json - 404 null text/plain;charset=utf-8 9.1792ms&#xD;
+[21:09:12 INF] Request starting HTTP/1.1 GET https://localhost/swagger/index.html - null null&#xD;
+[21:09:12 INF] Request finished HTTP/1.1 GET https://localhost/swagger/index.html - 404 null null 2.8078ms&#xD;
+[21:09:12 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost/swagger/index.html, Response status code: 404&#xD;
+[21:09:12 INF] Application is shutting down...&#xD;
+[21:09:13 INF] User profile is available. Using 'C:\Users\yutse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.&#xD;
+[21:09:13 INF] Application started. Press Ctrl+C to shut down.&#xD;
+[21:09:13 INF] Hosting environment: Testing&#xD;
+[21:09:13 INF] Content root path: C:\ors-dungeons-dragons-aa\cat-dl-backend-service\src\Api\ProductionIngestor.Api&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v1.json - null null&#xD;
+[21:09:13 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v1.json - 200 null application/json;charset=utf-8 87.1562ms&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/v1/health - null null&#xD;
+[21:09:13 INF] Executing endpoint 'ProductionIngestor.Api.Controllers.v1.HealthController.Get (ProductionIngestor.Api)'&#xD;
+[21:09:13 INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller ProductionIngestor.Api.Controllers.v1.HealthController (ProductionIngestor.Api).&#xD;
+[21:09:13 INF] Executing OkObjectResult, writing value of type '&lt;&gt;f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.&#xD;
+[21:09:13 INF] Executed action ProductionIngestor.Api.Controllers.v1.HealthController.Get (ProductionIngestor.Api) in 5.1219ms&#xD;
+[21:09:13 INF] Executed endpoint 'ProductionIngestor.Api.Controllers.v1.HealthController.Get (ProductionIngestor.Api)'&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/v1/health - 200 null application/json; charset=utf-8 12.7209ms&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v999.json - null null&#xD;
+[21:09:13 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v999.json - 404 null text/plain;charset=utf-8 9.8908ms&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/swagger/index.html - null null&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/swagger/index.html - 404 null null 4.2886ms&#xD;
+[21:09:13 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost/swagger/index.html, Response status code: 404&#xD;
+[21:09:13 INF] Application is shutting down...&#xD;
+[21:09:13 INF] User profile is available. Using 'C:\Users\yutse\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.&#xD;
+[21:09:13 INF] Application started. Press Ctrl+C to shut down.&#xD;
+[21:09:13 INF] Hosting environment: Testing&#xD;
+[21:09:13 INF] Content root path: C:\ors-dungeons-dragons-aa\cat-dl-backend-service\src\Api\ProductionIngestor.Api&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v1.json - null null&#xD;
+[21:09:13 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v1.json - 200 null application/json;charset=utf-8 50.3345ms&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/v1/health - null null&#xD;
+[21:09:13 INF] Executing endpoint 'ProductionIngestor.Api.Controllers.v1.HealthController.Get (ProductionIngestor.Api)'&#xD;
+[21:09:13 INF] Route matched with {action = "Get", controller = "Health"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller ProductionIngestor.Api.Controllers.v1.HealthController (ProductionIngestor.Api).&#xD;
+[21:09:13 INF] Executing OkObjectResult, writing value of type '&lt;&gt;f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.&#xD;
+[21:09:13 INF] Executed action ProductionIngestor.Api.Controllers.v1.HealthController.Get (ProductionIngestor.Api) in 2.184ms&#xD;
+[21:09:13 INF] Executed endpoint 'ProductionIngestor.Api.Controllers.v1.HealthController.Get (ProductionIngestor.Api)'&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/v1/health - 200 null application/json; charset=utf-8 10.6163ms&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/v1/status/test/Production - null null&#xD;
+[21:09:13 INF] Authorization failed. These requirements were not met:&#xD;
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.&#xD;
+[21:09:13 INF] AuthenticationScheme: Bearer was challenged.&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/v1/status/test/Production - 401 null null 19.5696ms&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/openapi/v999.json - null null&#xD;
+[21:09:13 INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/openapi/v999.json - 404 null text/plain;charset=utf-8 1.0243ms&#xD;
+[21:09:13 INF] Request starting HTTP/1.1 GET https://localhost/swagger/index.html - null null&#xD;
+[21:09:13 INF] Request finished HTTP/1.1 GET https://localhost/swagger/index.html - 404 null null 0.4049ms&#xD;
+[21:09:13 INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost/swagger/index.html, Response status code: 404&#xD;
+[21:09:13 INF] Application is shutting down...&#xD;
+[xUnit.net 00:00:10.33]   Finished:    ProductionIngestor.IntegrationTests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

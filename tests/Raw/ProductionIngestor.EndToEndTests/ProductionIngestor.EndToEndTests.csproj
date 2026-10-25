@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Azure.Core 1.55.0 and Azure.Identity 1.11.4 (both transitive via ProductionIngestor.Core's
+         Azure.Storage.Blobs dependency) each define DefaultAzureCredential in this package
+         generation, so an unaliased reference is ambiguous wherever both are visible unaliased.
+         Worker resolves this the same way in its own csproj: alias the Azure.Core package
+         reference so only Azure.Identity's copy resolves unaliased; no extern alias is needed in
+         code since the alias only removes Azure.Core's copy from unaliased resolution. -->
+    <PackageReference Include="Azure.Core" Version="1.55.0">
+      <Aliases>CoreOnly</Aliases>
+    </PackageReference>
+    <PackageReference Include="AWSSDK.SQS" Version="4.0.100.13" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.0" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Parquet.Net" Version="6.1.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Worker is a build/runtime dependency only: this project launches the built Worker as a
+         separate process and never invokes Worker types directly. ReferenceOutputAssembly=false
+         keeps this a build-order-only reference so Worker's package graph (notably its aliased
+         Azure.Core reference) never flows into this project's compilation. -->
+    <ProjectReference Include="..\..\..\src\Raw\Ingestors\Production\ProductionIngestor.Worker\ProductionIngestor.Worker.csproj" ReferenceOutputAssembly="false" ExcludeAssets="all" PrivateAssets="all" />
+    <ProjectReference Include="..\..\..\src\Raw\Ingestors\Production\ProductionIngestor.Core\ProductionIngestor.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Shared\Messaging.Contracts\Messaging.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
+

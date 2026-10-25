@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "OutageIngestor.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "scalar/v1",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LocalRefresh__Enabled": "true"
+      },
+      "applicationUrl": "https://localhost:57596;http://localhost:57597"
+    }
+  }
+}

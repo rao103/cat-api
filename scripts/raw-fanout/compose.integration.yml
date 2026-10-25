@@ -1,0 +1,26 @@
+# LOCAL TEST SERVICES ONLY. Mirror approved images through JFrog as required.
+services:
+  postgres:
+    image: postgres:17.2
+    environment:
+      POSTGRES_USER: rawfanout_test
+      POSTGRES_PASSWORD: local-test-only
+      POSTGRES_DB: rawfanout_test
+    ports: ["127.0.0.1:55432:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rawfanout_test -d rawfanout_test"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+  localstack:
+    image: localstack/localstack:3.8.1
+    environment:
+      SERVICES: sqs
+      DEFAULT_REGION: eu-north-1
+    ports: ["127.0.0.1:4566:4566"]
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite:3.33.0
+    environment:
+      AZURITE_ACCOUNTS: "fanouttest:MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDE="
+    command: "azurite-blob --blobHost 0.0.0.0 --skipApiVersionCheck"
+    ports: ["127.0.0.1:10000:10000"]
